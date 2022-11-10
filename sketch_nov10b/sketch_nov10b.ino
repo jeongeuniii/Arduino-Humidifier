@@ -30,7 +30,7 @@ void loop() {
   lcd.print("%");
   lcd.setCursor(0, 1);
 
-  if(h > 55) {
+  if(h < 50) {
     digitalWrite(3, HIGH);
     lcd.print("sw on");
   }
